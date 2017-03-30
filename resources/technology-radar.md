@@ -12,7 +12,7 @@ Insights into the technology and trends shaping the future. This is great guidan
 - Four rankings (adoption cycle)
     - **Adopt** - worth learning now
     - **Trial** - worth knowing about
-    - **Assess** - wait and see
+    - **Assess** - wait and see
     - **Hold** - probably not worth your time
 - [Search for any past topic](https://www.thoughtworks.com/radar/a-z)
 
