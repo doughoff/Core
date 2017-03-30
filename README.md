@@ -1,6 +1,6 @@
 # Business of IT
 ## Resources
-The best technical resources on the web I can find: Safari Online Books, InfoQ, Thoughtworks Radar, and Microsoft BizSpark.
+The best general technical resources on the web I can find: Safari Online Books, InfoQ, Thoughtworks Radar, and Microsoft BizSpark.
 ## Talks
 PDFs of presentations
 
