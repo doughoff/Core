@@ -1,5 +1,7 @@
 # Technology Radar
+
 <http://www.thoughtworks.com/radar>  
+
 Insights into the technology and trends shaping the future. This is great guidance for the next five years. These current subjects known as blips, if they last, will be important in one or two years.
 
 - [Martin Fowler](https://martinfowler.com/) is one of the senior analysts.
