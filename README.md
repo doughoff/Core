@@ -1,4 +1,4 @@
-# Business of IT
+# Core
 
 ## Resources
 The best general technical resources on the web I can find
