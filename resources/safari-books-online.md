@@ -1,6 +1,6 @@
 # Safari Books Online
 
-Safari Books Online is the premier on-demand digital library providing over 43,000 technology, digital media, and business books and videos online to academic and library users.
+Safari Books Online is the premier on-demand digital library providing over 43,000 technology, digital media, and business books and videos online to academic and library users. Access is free for library card holders.
 
 ## Mid-Continent Public Library access
 - [Mid-Continent Library direct link to Safari](http://proquestcombo.safaribooksonline.com.proxy.mcpl.lib.mo.us/)
