@@ -10,4 +10,7 @@ The best general technical resources on the web I can find
 ## Talks
 PDFs of presentations
 
-Updated 3/30/2017
+## Tools
+- Emmet cheat sheet reformatted
+
+Updated 7/20/2017
