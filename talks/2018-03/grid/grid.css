@@ -8,13 +8,6 @@ a {
     text-decoration: none;
 }
 
-.box {
-    background-color: darkslategray;
-    color: white;
-    border-radius: 10px;
-    padding: .5rem;
-}
-
 .big-salmon {
     background-color: darksalmon;
     font-size: 1.2rem;
@@ -23,6 +16,13 @@ a {
 .grid {
     display: grid;
     grid-gap: 10px;
+}
+
+.box {
+    background-color: darkslategray;
+    color: white;
+    border-radius: 10px;
+    padding: .5rem;
 }
 
 .col-2 {
@@ -111,15 +111,48 @@ a {
 .col-4-fr {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
 .col-4-fr-middle-heavy {
     grid-template-columns: 1fr 2fr 2fr 1fr;
 }
+
 .col-4-fr-percent {
     grid-template-columns: 1fr 50% 2fr 1fr;
 }
+
 .col-4-fr-px {
     grid-template-columns: 1fr 600px 2fr 1fr;
 }
+
 .col-4-fr-rem {
     grid-template-columns: 1fr 20rem 2fr 1fr;
+}
+
+.named-by-class {
+    grid-template-areas: "header" "nav" "main" "aside" "footer"
+}
+
+.header {
+    grid-area: header;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.main {
+    grid-area: main;
+}
+
+.aside {
+    grid-area: aside;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.named-2-col {
+    grid-template-columns: 20% auto;
+    grid-template-areas: "header header" "nav main" "aside aside" "footer footer";
 }
