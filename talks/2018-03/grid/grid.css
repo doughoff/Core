@@ -8,6 +8,13 @@ a {
     text-decoration: none;
 }
 
+.box {
+    background-color: darkslategray;
+    color: white;
+    border-radius: 10px;
+    padding: .5rem;
+}
+
 .big-salmon {
     background-color: darksalmon;
     font-size: 1.2rem;
@@ -16,13 +23,6 @@ a {
 .grid {
     display: grid;
     grid-gap: 10px;
-}
-
-.box {
-    background-color: darkslategray;
-    color: white;
-    border-radius: 10px;
-    padding: .5rem;
 }
 
 .col-2 {
@@ -128,10 +128,7 @@ a {
     grid-template-columns: 1fr 20rem 2fr 1fr;
 }
 
-.named-by-class {
-    grid-template-areas: "header" "nav" "main" "aside" "footer"
-}
-
+/* Named area layouts */
 .header {
     grid-area: header;
 }
@@ -152,7 +149,44 @@ a {
     grid-area: footer;
 }
 
+.named-by-class {
+    grid-template-areas: "header" "nav" "main" "aside" "footer"
+}
+
 .named-2-col {
     grid-template-columns: 20% auto;
     grid-template-areas: "header header" "nav main" "aside aside" "footer footer";
+}
+.named-3-col {
+    grid-template-columns: 20% auto 20%;
+    grid-template-areas: ". header aside" "nav main aside"  "nav footer .";
+}
+.named-3-col-minmax {
+    grid-template-columns: minmax(160px,200px) minmax(200px,60%) minmax(20%, 200px);
+    grid-template-areas: "nav header aside" "nav main aside"  "nav footer footer";
+}
+
+/* Responsive layout */
+/* largest sizes first */
+    .responsive {
+        grid-template-columns: minmax(20%, 200px) auto  auto minmax(20%, 200px);
+        grid-template-areas: "nav header header header" "nav main main aside" "nav main main aside" "nav footer footer footer";
+    }
+@media screen and (max-width: 900px) {
+    .responsive {
+        grid-template-columns: minmax(20%, 200px) auto minmax(20%, 200px);
+        grid-template-areas: "header header header" "nav main aside" "nav main aside" "nav footer footer";
+    }
+}
+@media screen and (max-width: 767px) {
+    .responsive {
+        grid-template-columns: minmax(20%, 200px) auto;
+        grid-template-areas: "header header" "nav main" "aside aside" "footer footer";
+    }
+}
+@media screen and (max-width: 550px) {
+    .responsive {
+        grid-template-columns: auto;
+        grid-template-areas: "header" "nav" "main" "aside" "footer";
+    }
 }
